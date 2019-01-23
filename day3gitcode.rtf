@@ -1,0 +1,429 @@
+{\rtf1\ansi\ansicpg874\deff0\nouicompat\deflang1054{\fonttbl{\f0\fmodern Lucida Console;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;\red0\green0\blue255;\red191\green0\blue0;}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs18\lang9\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~\cf4  (master)\par
+\cf0 $ git --version\par
+git version 2.20.1.windows.1\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~\cf4  (master)\par
+\cf0 $ git config --global user.name "apantree.won"\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~\cf4  (master)\par
+\cf0 $ git config --global user.email "apantree.won@gmail.com"\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~\cf4  (master)\par
+\cf0 $ cd Desktop\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git init\par
+Initialized empty Git repository in C:/Users/Apuntree/Desktop/.git/\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git remote add origin {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git clone\par
+fatal: You must specify a repository to clone.\par
+\par
+usage: git clone [<options>] [--] <repo> [<dir>]\par
+\par
+    -v, --verbose         be more verbose\par
+    -q, --quiet           be more quiet\par
+    --progress            force progress reporting\par
+    -n, --no-checkout     don't create a checkout\par
+    --bare                create a bare repository\par
+    --mirror              create a mirror repository (implies bare)\par
+    -l, --local           to clone from a local repository\par
+    --no-hardlinks        don't use local hardlinks, always copy\par
+    -s, --shared          setup as shared repository\par
+    --recurse-submodules[=<pathspec>]\par
+                          initialize submodules in the clone\par
+    -j, --jobs <n>        number of submodules cloned in parallel\par
+    --template <template-directory>\par
+                          directory from which templates will be used\par
+    --reference <repo>    reference repository\par
+    --reference-if-able <repo>\par
+                          reference repository\par
+    --dissociate          use --reference only while cloning\par
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream\par
+    -b, --branch <branch>\par
+                          checkout <branch> instead of the remote's HEAD\par
+    -u, --upload-pack <path>\par
+                          path to git-upload-pack on the remote\par
+    --depth <depth>       create a shallow clone of that depth\par
+    --shallow-since <time>\par
+                          create a shallow clone since a specific time\par
+    --shallow-exclude <revision>\par
+                          deepen history of shallow clone, excluding rev\par
+    --single-branch       clone only one branch, HEAD or --branch\par
+    --no-tags             don't clone any tags, and make later fetches not to follow them\par
+    --shallow-submodules  any cloned submodules will be shallow\par
+    --separate-git-dir <gitdir>\par
+                          separate git dir from working tree\par
+    -c, --config <key=value>\par
+                          set config inside the new repository\par
+    -4, --ipv4            use IPv4 addresses only\par
+    -6, --ipv6            use IPv6 addresses only\par
+    --filter <args>       object filtering\par
+\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18\par
+error: cannot spawn git-https://github.com/apantree-won/100DaysMLCodeChallenge.git: Invalid argument\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git clone {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18\par
+Cloning into '100DaysMLCodeChallenge'...\par
+remote: Enumerating objects: 214, done.\par
+remote: Counting objects: 100% (214/214), done.\par
+remote: Compressing objects: 100% (160/160), done.\par
+remote: Total 214 (delta 51), reused 211 (delta 48), pack-reused 0\par
+Receiving objects: 100% (214/214), 63.19 MiB | 787.00 KiB/s, done.\par
+Resolving deltas: 100% (51/51), done.\par
+Checking out files: 100% (178/178), done.\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        \cf6 100DaysMLCodeChallenge/\par
+\cf0         \cf6 Dropbox.lnk\par
+\cf0         \cf6 RStudio.lnk\par
+\cf0         \cf6 ShareX.lnk\par
+\cf0         \cf6 Stata.lnk\par
+\cf0         \cf6 desktop.ini\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+\par
+No commits yet\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        \cf6 100DaysMLCodeChallenge/\par
+\cf0         \cf6 desktop.ini\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ cd Desktop/100DaysMLCodeChallenge\par
+bash: cd: Desktop/100DaysMLCodeChallenge: No such file or directory\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ pwd\par
+/c/Users/Apuntree/Desktop\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ cd "/Desktop/100DaysMLCodeChallenge"\par
+bash: cd: /Desktop/100DaysMLCodeChallenge: No such file or directory\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ pwd\par
+/c/Users/Apuntree/Desktop\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ /c/Users/Apuntree/Desktop\par
+bash: /c/Users/Apuntree/Desktop: Is a directory\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ /c/Users/Apuntree/Desktop/100DaysMLCodeChallenge\par
+bash: /c/Users/Apuntree/Desktop/100DaysMLCodeChallenge: Is a directory\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ pwd\par
+/c/Users/Apuntree/Desktop\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop\cf4  (master)\par
+\cf0 $ cd /c/Users/Apuntree/Desktop/100DaysMLCodeChallenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ dir\par
+README.md  REFERENCES  Week0\\ Pretest  Week1\\ All\\ Basics\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is up to date with 'origin/master'.\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (push)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git remote add upstream {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (push)\par
+upstream        {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (fetch)\par
+upstream        {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (push)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git pull upstream master\par
+remote: Enumerating objects: 47, done.\par
+remote: Counting objects: 100% (47/47), done.\par
+remote: Compressing objects: 100% (26/26), done.\par
+remote: Total 41 (delta 15), reused 41 (delta 15), pack-reused 0\par
+Unpacking objects: 100% (41/41), done.\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge\ul0\cf0}}}}\f0\fs18\par
+ * branch            master     -> FETCH_HEAD\par
+ * [new branch]      master     -> upstream/master\par
+Updating 6e67179..859ee2d\par
+Fast-forward\par
+ ...ne Learning Pretest - Solution-checkpoint.ipynb |   279 \cf1 +\par
+\cf0  .../Pretest Python - Solutions-checkpoint.ipynb    |   487 \cf1 +\par
+\cf0  .../Pretest Python-checkpoint.ipynb                |   462 \cf1 +\par
+\cf0  .../Machine Learning Pretest - Solution.ipynb      |   401 \cf1 +\par
+\cf0  .../Pretest Python - Solutions.ipynb               |   481 \cf1 +\par
+\cf0  Week0 Pretest/ML_Pretest_Solution/testData.csv     |  1051 \cf1 ++\par
+\cf0  Week0 Pretest/ML_Pretest_Solution/trainData.csv    | 10401 \cf1 +++++++++++++++++++\par
+\cf0  ...ronment Setup for 100 Days of ML Challenge .txt |    20 \cf1 +\par
+\cf0  .../Python basics-checkpoint.ipynb                 |  2057 \cf1 ++++\par
+\cf0  .../Summary review-checkpoint.ipynb                |   561 \cf1 +\par
+\cf0  .../Lecture1 basic python/Python basics.ipynb      |     4 \cf1 +\cf6 -\par
+\cf0  .../Lecture1 basic python/Summary review.ipynb     |     2 \cf1 +\cf6 -\par
+\cf0  ...200\\231s Toolbox Tutorial - 1-checkpoint.ipynb" |  2069 \cf1 ++++\par
+\cf0  ...entist\\342\\200\\231s Toolbox Tutorial - 1.ipynb" |  2069 \cf1 ++++\par
+\cf0  .../Lecture1 basic python/more/input/Iris.csv      |   151 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/cars.csv      |    54 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/census.csv    |  3194 \cf1 ++++++\par
+\cf0  .../Lecture1 basic python/more/input/log.csv       |    34 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/mpg.csv       |   235 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/olympics.csv  |   149 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/test.csv      |   419 \cf1 +\par
+\cf0  .../Lecture1 basic python/more/input/train.csv     |   892 \cf1 ++\par
+\cf0  .../Charts_in_Colaboratory-checkpoint.ipynb        |  1935 \cf1 ++++\par
+\cf0  .../Charts_in_Colaboratory.ipynb                   |  1935 \cf1 ++++\par
+\cf0  requirements.txt                                   |    65 \cf1 +\par
+\cf0  25 files changed, 29405 insertions(+), 2 deletions(-)\par
+ create mode 100755 Week0 Pretest/ML_Pretest_Solution/.ipynb_checkpoints/Machine Learning Pretest - Solution-checkpoint.ipynb\par
+ create mode 100644 Week0 Pretest/ML_Pretest_Solution/.ipynb_checkpoints/Pretest Python - Solutions-checkpoint.ipynb\par
+ create mode 100755 Week0 Pretest/ML_Pretest_Solution/.ipynb_checkpoints/Pretest Python-checkpoint.ipynb\par
+ create mode 100755 Week0 Pretest/ML_Pretest_Solution/Machine Learning Pretest - Solution.ipynb\par
+ create mode 100644 Week0 Pretest/ML_Pretest_Solution/Pretest Python - Solutions.ipynb\par
+ create mode 100755 Week0 Pretest/ML_Pretest_Solution/testData.csv\par
+ create mode 100755 Week0 Pretest/ML_Pretest_Solution/trainData.csv\par
+ create mode 100644 Week1 All Basics/Environment Setup for 100 Days of ML Challenge .txt\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/.ipynb_checkpoints/Python basics-checkpoint.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/.ipynb_checkpoints/Summary review-checkpoint.ipynb\par
+ create mode 100644 "Week1 All Basics/Lecture1 basic python/more/.ipynb_checkpoints/The Data Scientist\\342\\200\\231s Toolbox Tutorial - 1-checkpoint.ipynb"\par
+ create mode 100644 "Week1 All Basics/Lecture1 basic python/more/The Data Scientist\\342\\200\\231s Toolbox Tutorial - 1.ipynb"\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/Iris.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/cars.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/census.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/log.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/mpg.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/olympics.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/test.csv\par
+ create mode 100644 Week1 All Basics/Lecture1 basic python/more/input/train.csv\par
+ create mode 100644 Week1 All Basics/Lecture4 python data science stack/.ipynb_checkpoints/Charts_in_Colaboratory-checkpoint.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture4 python data science stack/Charts_in_Colaboratory.ipynb\par
+ create mode 100644 requirements.txt\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ dir\par
+README.md  REFERENCES  requirements.txt  Week0\\ Pretest  Week1\\ All\\ Basics\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ conda help\par
+usage: conda [-h] [-V] command ...\par
+\par
+conda is a tool for managing and deploying applications, environments and packages.\par
+\par
+Options:\par
+\par
+positional arguments:\par
+  command\par
+    clean        Remove unused packages and caches.\par
+    config       Modify configuration values in .condarc. This is modeled\par
+                 after the git config command. Writes to the user .condarc\par
+                 file (C:\\Users\\Apuntree\\.condarc) by default.\par
+    create       Create a new conda environment from a list of specified\par
+                 packages.\par
+    help         Displays a list of available conda commands and their help\par
+                 strings.\par
+    info         Display information about current conda install.\par
+    install      Installs a list of packages into a specified conda\par
+                 environment.\par
+    list         List linked packages in a conda environment.\par
+    package      Low-level conda package utility. (EXPERIMENTAL)\par
+    remove       Remove a list of packages from a specified conda environment.\par
+    uninstall    Alias for conda remove. See conda remove --help.\par
+    search       Search for packages and display associated information. The\par
+                 input is a MatchSpec, a query language for conda packages.\par
+                 See examples below.\par
+    update       Updates conda packages to the latest compatible version. This\par
+                 command accepts a list of package names and updates them to\par
+                 the latest versions that are compatible with all other\par
+                 packages in the environment. Conda attempts to install the\par
+                 newest versions of the requested packages. To accomplish\par
+                 this, it may update some packages that are already installed,\par
+                 or install additional packages. To prevent existing packages\par
+                 from updating, use the --no-update-deps option. This may\par
+                 force conda to install older versions of the requested\par
+                 packages, and it does not prevent additional dependency\par
+                 packages from being installed. If you wish to skip dependency\par
+                 checking altogether, use the '--force' option. This may\par
+                 result in an environment with incompatible packages, so this\par
+                 option must be used with great caution.\par
+    upgrade      Alias for conda update. See conda update --help.\par
+\par
+optional arguments:\par
+  -h, --help     Show this help message and exit.\par
+  -V, --version  Show the conda version number and exit.\par
+\par
+conda commands available from other packages:\par
+  build\par
+  convert\par
+  debug\par
+  develop\par
+  env\par
+  index\par
+  inspect\par
+  metapackage\par
+  render\par
+  server\par
+  skeleton\par
+  verify\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ conda info --envs\par
+# conda environments:\par
+#\par
+base                  *  C:\\Users\\Apuntree\\Anaconda3\par
+\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ source activate mlcode\par
+Could not find conda environment: mlcode\par
+You can list all discoverable environments with `conda info --envs`.\par
+\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ conda info --envs\par
+# conda environments:\par
+#\par
+base                  *  C:\\Users\\Apuntree\\Anaconda3\par
+mlcode                   C:\\Users\\Apuntree\\Anaconda3\\envs\\mlcode\par
+\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ source activate mlcode\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ pip list\par
+Package      Version\par
+------------ ----------\par
+certifi      2018.11.29\par
+pip          18.1\par
+setuptools   40.6.3\par
+wheel        0.32.3\par
+wincertstore 0.2\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ dir\par
+README.md  REFERENCES  requirements.txt  Week0\\ Pretest  Week1\\ All\\ Basics\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ pip install -r requiremnets.txt\par
+Could not open requirements file: [Errno 2] No such file or directory: 'requiremnets.txt'\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ pip install -r requirements.txt\par
+Collecting appnope==0.1.0 (from -r requirements.txt (line 1))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/87/a9/7985e6a53402f294c8f0e8eff3151a83f1fb901fa92909bb3ff29b4d22af/appnope-0.1.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/87/a9/7985e6a53402f294c8f0e8eff3151a83f1fb901fa92909bb3ff29b4d22af/appnope-0.1.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting attrs==18.2.0 (from -r requirements.txt (line 2))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attrs-18.2.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attrs-18.2.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting backcall==0.1.0 (from -r requirements.txt (line 3))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz }}{\fldrslt{https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz\ul0\cf0}}}}\f0\fs18\par
+Collecting bleach==3.1.0 (from -r requirements.txt (line 4))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (157kB)\par
+Requirement already satisfied: certifi==2018.11.29 in c:\\users\\apuntree\\anaconda3\\envs\\mlcode\\lib\\site-packages (from -r requirements.txt (line 5)) (2018.11.29)\par
+Collecting chardet==3.0.4 (from -r requirements.txt (line 6))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (133kB)\par
+Collecting contextlib2==0.5.5 (from -r requirements.txt (line 7))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/a2/71/8273a7eeed0aff6a854237ab5453bc9aa67deb49df4832801c21f0ff3782/contextlib2-0.5.5-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/a2/71/8273a7eeed0aff6a854237ab5453bc9aa67deb49df4832801c21f0ff3782/contextlib2-0.5.5-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting cycler==0.10.0 (from -r requirements.txt (line 8))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting decorator==4.3.0 (from -r requirements.txt (line 9))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting entrypoints==0.3 (from -r requirements.txt (line 10))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting idna==2.8 (from -r requirements.txt (line 11))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (58kB)\par
+Collecting ipykernel==5.1.0 (from -r requirements.txt (line 12))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/d8/b0/f0be5c5ab335196f5cce96e5b889a4fcf5bfe462eb0acc05cd7e2caf65eb/ipykernel-5.1.0-py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/d8/b0/f0be5c5ab335196f5cce96e5b889a4fcf5bfe462eb0acc05cd7e2caf65eb/ipykernel-5.1.0-py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (113kB)\par
+Collecting ipython==7.2.0 (from -r requirements.txt (line 13))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/f0/b4/a9ea018c73a84ee6280b2e94a1a6af8d63e45903eac2da0640fa63bca4db/ipython-7.2.0-py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/f0/b4/a9ea018c73a84ee6280b2e94a1a6af8d63e45903eac2da0640fa63bca4db/ipython-7.2.0-py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (765kB)\par
+Collecting ipython-genutils==0.2.0 (from -r requirements.txt (line 14))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting jedi==0.13.2 (from -r requirements.txt (line 15))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/c2/bc/54d53f5bc4658380d0eca9055d72be4df45e5bfd91a4bac97da224a92553/jedi-0.13.2-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/c2/bc/54d53f5bc4658380d0eca9055d72be4df45e5bfd91a4bac97da224a92553/jedi-0.13.2-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (177kB)\par
+Collecting Jinja2==2.10 (from -r requirements.txt (line 16))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (126kB)\par
+Collecting jsonschema==3.0.0a3 (from -r requirements.txt (line 17))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/e3/df/b85ecaf1e9d4a8e9aa958517edeb3d933b9ce23d5c19ad3873ce1ac7d57b/jsonschema-3.0.0a3-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/e3/df/b85ecaf1e9d4a8e9aa958517edeb3d933b9ce23d5c19ad3873ce1ac7d57b/jsonschema-3.0.0a3-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (49kB)\par
+Collecting jupyter==1.0.0 (from -r requirements.txt (line 18))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting jupyter-client==5.2.4 (from -r requirements.txt (line 19))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/3b/c3/3043fe9ffd140d03c9d091a056794ccdc427c56ec19b8eea74f9ea0a498f/jupyter_client-5.2.4-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/3b/c3/3043fe9ffd140d03c9d091a056794ccdc427c56ec19b8eea74f9ea0a498f/jupyter_client-5.2.4-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (89kB)\par
+Collecting jupyter-console==6.0.0 (from -r requirements.txt (line 20))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/cb/ee/6374ae8c21b7d0847f9c3722dcdfac986b8e54fa9ad9ea66e1eb6320d2b8/jupyter_console-6.0.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/cb/ee/6374ae8c21b7d0847f9c3722dcdfac986b8e54fa9ad9ea66e1eb6320d2b8/jupyter_console-6.0.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting jupyter-core==4.4.0 (from -r requirements.txt (line 21))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18  (126kB)\par
+Collecting kiwisolver==1.0.1 (from -r requirements.txt (line 22))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/7c/be/7ae355b45699460e369ebf88d86058fca26827933974cc3f6b6b7800a324/kiwisolver-1.0.1-cp37-none-win_amd64.whl }}{\fldrslt{https://files.pythonhosted.org/packages/7c/be/7ae355b45699460e369ebf88d86058fca26827933974cc3f6b6b7800a324/kiwisolver-1.0.1-cp37-none-win_amd64.whl\ul0\cf0}}}}\f0\fs18  (57kB)\par
+Collecting lxml==4.2.5 (from -r requirements.txt (line 23))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/d7/9d/1aa28aa9d293a816baec6c37328d6465b722b2ff3f4d1e93ed56e87813ee/lxml-4.2.5-cp37-cp37m-win_amd64.whl }}{\fldrslt{https://files.pythonhosted.org/packages/d7/9d/1aa28aa9d293a816baec6c37328d6465b722b2ff3f4d1e93ed56e87813ee/lxml-4.2.5-cp37-cp37m-win_amd64.whl\ul0\cf0}}}}\f0\fs18  (3.6MB)\par
+Collecting MarkupSafe==1.1.0 (from -r requirements.txt (line 24))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/44/6e/41ac9266e3db762dfd9089f6b0d2298c84160f54ef2a7257c17b0e7ec2ec/MarkupSafe-1.1.0-cp37-cp37m-win_amd64.whl }}{\fldrslt{https://files.pythonhosted.org/packages/44/6e/41ac9266e3db762dfd9089f6b0d2298c84160f54ef2a7257c17b0e7ec2ec/MarkupSafe-1.1.0-cp37-cp37m-win_amd64.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting matplotlib==3.0.2 (from -r requirements.txt (line 25))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/5c/ee/efaf04efc763709f6840cd8d08865d194f7453f43e98d042c92755cdddec/matplotlib-3.0.2-cp37-cp37m-win_amd64.whl }}{\fldrslt{https://files.pythonhosted.org/packages/5c/ee/efaf04efc763709f6840cd8d08865d194f7453f43e98d042c92755cdddec/matplotlib-3.0.2-cp37-cp37m-win_amd64.whl\ul0\cf0}}}}\f0\fs18  (8.9MB)\par
+Collecting mistune==0.8.4 (from -r requirements.txt (line 26))\par
+  Downloading {{\field{\*\fldinst{HYPERLINK https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl }}{\fldrslt{https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl\ul0\cf0}}}}\f0\fs18\par
+Collecting mkl-fft==1.0.6 (from -r requirements.txt (line 27))\par
+  Could not find a version that satisfies the requirement mkl-fft==1.0.6 (from -r requirements.txt (line 27)) (from versions: )\par
+No matching distribution found for mkl-fft==1.0.6 (from -r requirements.txt (line 27))\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ pip list\par
+Package      Version\par
+------------ ----------\par
+certifi      2018.11.29\par
+pip          18.1\par
+setuptools   40.6.3\par
+wheel        0.32.3\par
+wincertstore 0.2\par
+(mlcode)\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ jupyter notebook\par
+[I 21:33:18.616 NotebookApp] Writing notebook server cookie secret to C:\\Users\\Apuntree\\AppData\\Roaming\\jupyter\\runtime\\notebook_cookie_secret\par
+[I 21:33:23.627 NotebookApp] JupyterLab extension loaded from C:\\Users\\Apuntree\\Anaconda3\\lib\\site-packages\\jupyterlab\par
+[I 21:33:23.627 NotebookApp] JupyterLab application directory is C:\\Users\\Apuntree\\Anaconda3\\share\\jupyter\\lab\par
+[I 21:33:23.629 NotebookApp] Serving notebooks from local directory: C:\\Users\\Apuntree\\Desktop\\100DaysMLCodeChallenge\par
+[I 21:33:23.629 NotebookApp] The Jupyter Notebook is running at:\par
+[I 21:33:23.629 NotebookApp] {{\field{\*\fldinst{HYPERLINK http://localhost:8888/?token=c05f01b85b390446a5c5139577cacfee716253ce47346558 }}{\fldrslt{http://localhost:8888/?token=c05f01b85b390446a5c5139577cacfee716253ce47346558\ul0\cf0}}}}\f0\fs18\par
+[I 21:33:23.629 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).\par
+[C 21:33:23.711 NotebookApp]\par
+\par
+    To access the notebook, open this file in a browser:\par
+        {{\field{\*\fldinst{HYPERLINK file:///C:/Users/Apuntree/AppData/Roaming/jupyter/runtime/nbserver-12520-open.html }}{\fldrslt{file:///C:/Users/Apuntree/AppData/Roaming/jupyter/runtime/nbserver-12520-open.html\ul0\cf0}}}}\f0\fs18\par
+    Or copy and paste one of these URLs:\par
+        {{\field{\*\fldinst{HYPERLINK http://localhost:8888/?token=c05f01b85b390446a5c5139577cacfee716253ce47346558 }}{\fldrslt{http://localhost:8888/?token=c05f01b85b390446a5c5139577cacfee716253ce47346558\ul0\cf0}}}}\f0\fs18\par
+\f1\fs22\par
+}
+ 
