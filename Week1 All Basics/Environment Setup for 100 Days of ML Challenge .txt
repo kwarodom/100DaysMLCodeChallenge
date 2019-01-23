@@ -1,0 +1,20 @@
+Make sure you have all of these development environment setup:
+
+1. Local Anaconda Installation 
+https://www.anaconda.com/download/ 
+
+2. Create Anaconda Virtual Environment 
+For this you need 'requirements.txt' from https://github.com/kwarodom/100DaysMLCodeChallenge/blob/master/requirements.txt 
+>> More info: https://docs.anaconda.com/anaconda/user-guide/getting-started/
+
+3. Can run Jupyter Notebook Locally
+100DaysMLCodeChallenge$ jupyter notebook
+
+4. Google Drive Folder in '100DaysMLCode' Team Drive
+Create folder and name it as your 'FIRST LASTNAME ORG'
+
+5. Google Colab Notebooks 
+https://colab.research.google.com 
+
+6. Zoom.us installation 
+https://zoom.us 
