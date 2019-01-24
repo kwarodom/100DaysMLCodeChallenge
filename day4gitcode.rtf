@@ -1,0 +1,344 @@
+{\rtf1\ansi\ansicpg874\deff0\nouicompat\deflang1054{\fonttbl{\f0\fmodern Lucida Console;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green191\blue0;\red191\green0\blue191;\red191\green191\blue0;\red0\green191\blue191;\red0\green0\blue255;\red64\green255\blue255;\red64\green255\blue64;\red255\green64\blue64;\red191\green0\blue0;}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\f0\fs18\lang9 Apuntree@apantree \cf2 MINGW64 \cf3 ~\cf4  (master)\par
+\cf0 $ cd Desktop/100DaysMLCodeChallenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git remote -v\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (fetch)\par
+origin  {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (push)\par
+upstream        {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (fetch)\par
+upstream        {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18  (push)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 4 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log -n 10 --pretty=one line\par
+fatal: ambiguous argument 'line': unknown revision or path not in the working tree.\par
+Use '--' to separate paths from revisions, like this:\par
+'git <command> [<revision>...] -- [<file>...]'\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log -n 10 --pretty=oneline\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165 (\cf6 HEAD -> \cf7 master\cf3 , \cf8 upstream/master\cf3 )\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 4 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git pull upstream master\par
+remote: Enumerating objects: 13, done.\par
+remote: Counting objects: 100% (13/13), done.\par
+remote: Compressing objects: 100% (7/7), done.\par
+remote: Total 20 (delta 6), reused 13 (delta 6), pack-reused 7\par
+Unpacking objects: 100% (20/20), done.\par
+From {{\field{\*\fldinst{HYPERLINK https://github.com/kwarodom/100DaysMLCodeChallenge }}{\fldrslt{https://github.com/kwarodom/100DaysMLCodeChallenge\ul0\cf0}}}}\f0\fs18\par
+ * branch            master     -> FETCH_HEAD\par
+   859ee2d..b586c54  master     -> upstream/master\par
+Updating 859ee2d..b586c54\par
+Fast-forward\par
+ .../Summary review-checkpoint.ipynb                |  561 \cf9 -----\par
+\cf0  .../More Python Exercises.ipynb                    |   34 \cf9 -\par
+\cf0  .../Lecture1 basic python/Summary review.ipynb     |  561 \cf9 -----\par
+\cf0  ...for Machine Learning Engineers-checkpoint.ipynb |    6 \cf1 +\par
+\cf0  ...Essentials for Machine Learning Engineers.ipynb |  129 \cf1 ++\par
+\cf0  ...ar Algebra for Data Scientists-checkpoint.ipynb | 2421 \cf1 +++++++++++++++++++\par
+\cf0  .../Linear Algebra for Data Scientists.ipynb       | 2425 \cf1 ++++++++++++++++++++\par
+\cf0  .../.ipynb_checkpoints/demo-checkpoint.ipynb       |    0\par
+ .../ADRvsRating.csv                                |    0\par
+ .../demo.ipynb                                     |    0\par
+ .../resources/data.png                             |  Bin\par
+ .../resources/data_line.png                        |  Bin\par
+ .../resources/gradient_descent_1.png               |  Bin\par
+ .../resources/live_error.png                       |  Bin\par
+ .../resources/live_plot_gs_il.png                  |  Bin\par
+ .../\{ => 7. Plotting\}/Charts_in_Colaboratory.ipynb |    0\par
+ 16 files changed, 4981 insertions(+), 1156 deletions(-)\par
+ delete mode 100644 Week1 All Basics/Lecture1 basic python/.ipynb_checkpoints/Summary review-checkpoint.ipynb\par
+ delete mode 100644 Week1 All Basics/Lecture1 basic python/More Python Exercises.ipynb\par
+ delete mode 100644 Week1 All Basics/Lecture1 basic python/Summary review.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture3 Basic Math/.ipynb_checkpoints/Mathematics Essentials for Machine Learning Engineers-checkpoint.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture3 Basic Math/0. Mathematics Essentials for Machine Learning Engineers.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture3 Basic Math/1. Linear Algebra/.ipynb_checkpoints/Linear Algebra for Data Scientists-checkpoint.ipynb\par
+ create mode 100644 Week1 All Basics/Lecture3 Basic Math/1. Linear Algebra/Linear Algebra for Data Scientists.ipynb\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/.ipynb_checkpoints/demo-checkpoint.ipynb (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/ADRvsRating.csv (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/demo.ipynb (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/resources/data.png (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/resources/data_line.png (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/resources/gradient_descent_1.png (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/resources/live_error.png (100%)\par
+ rename Week1 All Basics/Lecture3 Basic Math/\{Gradient Descent => 2. Gradient Descent\}/resources/live_plot_gs_il.png (100%)\par
+ rename Week1 All Basics/Lecture4 python data science stack/\{ => 7. Plotting\}/Charts_in_Colaboratory.ipynb (100%)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log -n 10 --pretty=oneline\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf6 HEAD -> \cf7 master\cf3 , \cf8 upstream/master\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 6 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        \cf9 Day3GitCode.rtf\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git add.\par
+git: 'add.' is not a git command. See 'git --help'.\par
+\par
+The most similar command is\par
+        add\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git add .\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 6 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+Changes to be committed:\par
+  (use "git reset HEAD <file>..." to unstage)\par
+\par
+        \cf1 new file:   Day3GitCode.rtf\par
+\par
+\par
+Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git commit -m "add day3 code"\par
+[master 9bfaec8] add day3 code\par
+ 1 file changed, 429 insertions(+)\par
+ create mode 100644 Day3GitCode.rtf\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log --pretty=oneline\par
+\cf3 9bfaec8415d2b90565f2b1273ea261ac7abf1161 (\cf6 HEAD -> \cf7 master\cf3 )\cf0  add day3 code\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf8 upstream/master\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git status\par
+On branch master\par
+Your branch is ahead of 'origin/master' by 7 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git reset --hard^C\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git reset --hard b586c54e03aeabbd3\par
+HEAD is now at b586c54 added linear algebra notebook\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log --pretty=oneline\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf6 HEAD -> \cf7 master\cf3 , \cf8 upstream/master\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git checkout day3code\par
+error: pathspec 'day3code' did not match any file(s) known to git\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git checkout -b day3code\par
+Switched to a new branch 'day3code'\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git push origin Day3GitCode\par
+error: src refspec Day3GitCode does not match any.\par
+\cf9 error: failed to push some refs to '{{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18 '\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git checkout master\par
+Switched to branch 'master'\par
+Your branch is ahead of 'origin/master' by 6 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git log --pretty=oneline\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf6 HEAD -> \cf7 master\cf3 , \cf8 upstream/master\cf3 , \cf7 day3code\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git checkout -b day3code\par
+fatal: A branch named 'day3code' already exists.\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git checkout day3code\par
+Switched to branch 'day3code'\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git push origin day3gitcode\par
+error: src refspec day3gitcode does not match any.\par
+\cf9 error: failed to push some refs to '{{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18 '\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git status\par
+On branch day3code\par
+Untracked files:\par
+  (use "git add <file>..." to include in what will be committed)\par
+\par
+        \cf9 day3gitcode.rtf\par
+\par
+\cf0 nothing added to commit but untracked files present (use "git add" to track)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git add .\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git push origin day3gitcode\par
+error: src refspec day3gitcode does not match any.\par
+\cf9 error: failed to push some refs to '{{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18 '\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git status\par
+On branch day3code\par
+Changes to be committed:\par
+  (use "git reset HEAD <file>..." to unstage)\par
+\par
+        \cf1 new file:   day3gitcode.rtf\par
+\par
+\par
+Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git commit -m "add day3 code"\par
+[day3code e5ff086] add day3 code\par
+ 1 file changed, 429 insertions(+)\par
+ create mode 100644 day3gitcode.rtf\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git push origin day3gitcode\par
+error: src refspec day3gitcode does not match any.\par
+\cf9 error: failed to push some refs to '{{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18 '\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git status\par
+On branch day3code\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git log --pretty=oneline\par
+\cf3 e5ff086df2cc4cdba93b6be363a77ee6e184ab2d (\cf6 HEAD -> \cf7 day3code\cf3 )\cf0  add day3 code\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf8 upstream/master\cf3 , \cf7 master\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git push origin day3code\par
+Enumerating objects: 72, done.\par
+Counting objects: 100% (72/72), done.\par
+Delta compression using up to 4 threads\par
+Compressing objects: 100% (64/64), done.\par
+Writing objects: 100% (64/64), 2.75 MiB | 695.00 KiB/s, done.\par
+Total 64 (delta 27), reused 0 (delta 0)\par
+remote: Resolving deltas: 100% (27/27), completed with 5 local objects.\par
+remote:\par
+remote: Create a pull request for 'day3code' on GitHub by visiting:\par
+remote:      {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge/pull/new/day3code }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge/pull/new/day3code\ul0\cf0}}}}\f0\fs18\par
+remote:\par
+To {{\field{\*\fldinst{HYPERLINK https://github.com/apantree-won/100DaysMLCodeChallenge.git }}{\fldrslt{https://github.com/apantree-won/100DaysMLCodeChallenge.git\ul0\cf0}}}}\f0\fs18\par
+ * [new branch]      day3code -> day3code\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git log --pretty=oneline\par
+\cf3 e5ff086df2cc4cdba93b6be363a77ee6e184ab2d (\cf6 HEAD -> \cf7 day3code\cf3 , \cf8 origin/day3code\cf3 )\cf0  add day3 code\par
+\cf3 b586c54e03aeabbd39b71b100d451313e21841c7 (\cf8 upstream/master\cf3 , \cf7 master\cf3 )\cf0  added linear algebra notebook\par
+\cf3 81a3ee1dd866363fe0b52324b3cd0d0f35f739f8\cf0  add more files for basic math\par
+\cf3 859ee2d229f495c8cd80cdf01160a040bd8ab165\cf0  fixed version of libs in requirements.txt\par
+\cf3 3f7811c6fdf04abd5e1b4a574fdb3b6a3dabf468\cf0  instruction for dev env setup for 100daysofmlcode\par
+\cf3 c8e8100aa8e9990f1fa9d429672b43c8992904a7\cf0  added requirements.txt for anaconda venv\par
+\cf3 158b920a7ba30c1c3c35ed5479ca3b348cfb7d72\cf0  add more solutions\par
+\cf3 6e671794d08e554737d1296dffb3b791b4eea49b (\cf8 origin/master\cf3 , \cf8 origin/HEAD\cf3 )\cf0  add pretest\par
+\cf3 8185f94393e516f2415169f06ba1c6f103ba5190\cf0  add reference book\par
+\cf3 e095c543aa64179762f7b816c9a5d533fae83869\cf0  rem some files\par
+\cf3 dc4288a20b1bf884748787848362975948c20786\cf0  initial commit 1st day of 100 days ML code challenge\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git status\par
+On branch day3code\par
+nothing to commit, working tree clean\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ checkout master\par
+bash: checkout: command not found\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (day3code)\par
+\cf0 $ git checkout master\par
+Switched to branch 'master'\par
+Your branch is ahead of 'origin/master' by 6 commits.\par
+  (use "git push" to publish your local commits)\par
+\par
+\cf1 Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0 $ git branch\par
+  day3code\par
+* \cf1 master\par
+\par
+Apuntree@apantree \cf2 MINGW64 \cf3 ~/Desktop/100DaysMLCodeChallenge\cf4  (master)\par
+\cf0\f1\fs22\par
+}
+ 
