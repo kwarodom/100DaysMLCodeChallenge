@@ -1,0 +1,17 @@
+Baby name frequency data from https://catalog.data.gov/dataset/baby-names-from-social-security-card-applications-national-level-data. This website describes the data as "Public: This dataset is intended for public access and use."
+
+Dataset description from http://www.ssa.gov/oact/babynames/background.html:
+
+"All names are from Social Security card applications for births that occurred in the United States after 1879. Note that many people born before 1937 never applied for a Social Security card, so their names are not included in our data. For others who did apply, our records may not show the place of birth, and again their names are not included in our data."
+
+And further:
+
+"""
+People using our data on popular names are urged to explicitly acknowledge the following qualifications.
+
+* Names are restricted to cases where the year of birth, sex, State of birth (50 States and District of Columbia) are on record, and where the given name is at least 2 characters long.
+* Name data are not edited. For example, the sex associated with a name may be incorrect. Entries such as "Unknown" and "Baby" are not removed from the lists.
+* Different spellings of similar names are not combined. For example, the names Caitlin, Caitlyn, Kaitlin, Kaitlyn, Kaitlynn, Katelyn, and Katelynn are considered separate names and each has its own rank.
+* When two different names are tied with the same frequency for a given year of birth, we break the tie by assigning rank in alphabetical order.
+* Some names are applied to both males and females (for example, Micah). Our rankings are done by sex, so that a name such as Micah will have a different rank for males as compared to females.
+"""
